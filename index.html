@@ -1,0 +1,47 @@
+<html>
+    <title>Clase 01</title>
+    <body>
+
+    </body>
+    <script>
+
+        //JSON
+        const triangulos = [
+            {
+                "nombre": "T1",
+                "base": 10,
+                "altura": 17
+            },
+            {
+                "nombre": "T2",
+                "base": 20,
+                "altura": 3
+            },
+            {
+                "nombre": "T3",
+                "base": 40,
+                "altura": 8
+            },
+            {
+                "nombre": "T4",
+                "base": 14,
+                "altura": 7
+            },
+            {
+                "nombre": "T5",
+                "base": 20,
+                "altura": 19
+            }
+        ];  
+        function calcularAreaTriangulo(base, altura, ) {
+            area = (base * altura) / 2;
+            
+            console.log("su area es de "+area);
+        }
+       
+        triangulos.forEach((e) => {
+            // calcular
+            calcularAreaTriangulo(e.base, e.altura);            
+        });
+    </script>
+</html>
